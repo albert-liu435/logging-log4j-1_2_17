@@ -46,6 +46,7 @@ public interface LoggerRepository {
     public void addHierarchyEventListener(HierarchyEventListener listener);
 
     /**
+     * 给定的等级是否可用
      * Returns whether this repository is disabled for a given
      * level. The answer depends on the repository threshold and the
      * <code>level</code> parameter. See also {@link #setThreshold}
